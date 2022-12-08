@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #EEF6FB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.City-div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+}
+
+.City-btn-selected {
+  border: 0px;
+  background-color: #EEF6FB;
+  color: #5FB0E8;
+  font-size: large;
+  font-family:'Trebuchet MS';
+  font-weight: 700;
+}
+
+.City-btn {
+  border: 0px;
+  background-color: #EEF6FB;
+  color: #3D3E43;
+  font-size: large;
+  font-family:'Trebuchet MS';
+  font-weight: 500;
+}
+
+.level1-text {
+  color: #55575D;
+  font-size: 16px;
+  font-family:'Trebuchet MS';
+  font-weight: 400;
+  margin: 5px 0px;
+}
+
+.level2-text {
+  color: #55575D;
+  font-size: 14px;
+  font-family:'Trebuchet MS';
+  font-weight: 400;
+  margin: 0px;
+}
+
+.level1-temp {
+  color: #333339;
+  font-size: 36px;
+  font-family:'Trebuchet MS';
+  font-weight: 700;
+  margin: 5px;
+}
+
+.level2-temp {
+  color: #333339;
+  font-size: 16px;
+  font-family:'Trebuchet MS';
+  font-weight: 700;
+  margin: 5px;
+}
+
+.Weather-div {
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+  /* width: 35%; */
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Today-sec {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Next4-sec {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Day-sec {
+  display: flex;
+  flex-direction: column;
+  border-width: 3px 1px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  padding: 10px 15px;
+  flex-grow: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
